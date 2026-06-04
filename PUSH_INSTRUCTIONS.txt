@@ -1,0 +1,30 @@
+## Git commands to push UniCycleBoost
+
+Run these one by one in your terminal:
+
+```bash
+# 1. Clone the empty repo you just created
+git clone https://github.com/ananyag06/UniCycleBoost.git
+cd UniCycleBoost
+
+# 2. Make sure your git identity matches your GitHub account email
+git config user.name "ananyag06"
+git config user.email "YOUR_GITHUB_EMAIL_HERE"   # ← put your actual GitHub email
+
+# 3. Create the results folder
+mkdir results
+
+# 4. Copy all the files I generated into this folder
+#    (copy problem_ck_free.jl, search_fc.jl, constants.jl, README.md, results/analysis.md)
+
+# 5. Add everything
+git add .
+
+# 6. Commit
+git commit -m "Initial commit: UniCycleBoost - unified Ck-free graph construction engine"
+
+# 7. Push
+git push origin main
+```
+
+That's it! You will be the only contributor.
